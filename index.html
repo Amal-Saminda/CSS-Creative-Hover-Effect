@@ -3,26 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>CSS Card Layout</title>
 </head>
 <body>
-  <div>
-    <div>
-      <img src="accest/3.jpg" alt="">
+<div class="wrapper">
+  <div class="card">
+    <div class="row">
+      <img src="accest/3.jpg" alt="image" class="main_img">
     </div>
-      <div>
+      <div class="row">
         <div>
-          <span>Private Tour</span>
+          <span class="private">Private Tour</span>
             <h3>Beach Hopping</h3>
         </div>
           <div>
             <h5>3</h5>
-            <p>Days</p>
+              <p>Days</p>
           </div>
       </div>
-        <div>
-          <div>
+        <div class="row">
+          <div class="icons">
           <img src="accest/sea.svg" alt="sea">
           <img src="accest/sun.svg" alt="sun">
           <img src="accest/truck.svg" alt="truck">
@@ -32,13 +36,14 @@
               <p>Nov-Apr</p>
         </div>
       </div>
-          <div>
+          <div class="row">
             <p>Starting from USD</p>
             <h3>$1,040</h3>
             <h5>PP Twin Share</h5>
-        </div>
+          </div>
           <div>
-            <a href="#">View Details</a>
+            <a href="#" class="link">View Details</a>
+          </div>
           </div>
   
 </body>
