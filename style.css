@@ -65,8 +65,17 @@ span,a,h5,p,h3{
 .link:hover{
   background-color: goldenrod;
 }
+
+.cols{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .icons img{
   width: 1.7em;
+}
+.cols{
+ justify-content: end;
 }
 .sep1{
   border-left: 2px solid grey;
