@@ -14,21 +14,30 @@ span,a,h5,p,h3{
   min-height: 550px;
 }
 .row{
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .row{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+
 }
+
+
 .main_img{
   width: 100%;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
 .card{
-  width: 400px;
+  width: 350px;
+  height: 470px;
+  box-shadow: 1px 10px 31px -3px gray;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
 }
+
+/* ----------------Design private tour button--------------------*/
 .private{
   background-color: blue;
   border-radius: 10px;
@@ -36,7 +45,45 @@ span,a,h5,p,h3{
   font-weight: bold;
   color: white;
   align-items: center;
+  display: inline-block;
+  margin-bottom: 0.3em;
 }
+
+/* ---------------- End design private tour button--------------------*/
 .link{
-  background-color: greenyellow;
+  background-color: #6b5a9a;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  font-family: cursive;
+  padding: 7px;
+  border-radius: 15px;
+  border: none;
+  text-decoration: none;
+  transition: 200ms;
 }
+.link:hover{
+  background-color: goldenrod;
+}
+.icons img{
+  width: 1.7em;
+}
+.sep1{
+  border-left: 2px solid grey;
+  padding-left: 1em;
+}
+
+/* ----------------Border line start--------------------*/
+
+.row{
+  border-bottom: 1px solid #7c7c7c;
+  padding-bottom : 0.6em;
+  margin-bottom: 0.6em;
+
+}
+
+.row:first-child,.row:last-child{
+  border: none;
+}
+
+/* ----------------Border line end--------------------*/
