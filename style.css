@@ -28,6 +28,9 @@ span,a,h5,p,h3{
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
+
+/* ----------------Create card SHADOW--------------------*/
+
 .card{
   width: 350px;
   height: 470px;
@@ -36,6 +39,9 @@ span,a,h5,p,h3{
   border-top-right-radius: 30px;
 
 }
+
+/* ----------------ENDcard SHADOW--------------------*/
+
 
 /* ----------------Design private tour button--------------------*/
 .private{
@@ -49,7 +55,11 @@ span,a,h5,p,h3{
   margin-bottom: 0.3em;
 }
 
-/* ---------------- End design private tour button--------------------*/
+/* ---------------- End private tour button--------------------*/
+
+
+
+/* ----------------Design View More button--------------------*/
 .link{
   background-color: #6b5a9a;
   font-size: 18px;
@@ -62,15 +72,19 @@ span,a,h5,p,h3{
   text-decoration: none;
   transition: 200ms;
 }
+
+/* ----------------End View More button--------------------*/
+
+
+
+/* ----------------Design View More button: Hover--------------------*/
+
 .link:hover{
   background-color: goldenrod;
 }
 
-.cols{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+/* ----------------End View More button: Hover--------------------*/
+
 .icons img{
   width: 1.7em;
 }
